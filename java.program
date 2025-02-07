@@ -11,7 +11,7 @@ public class Reverse
    while(n!=0)
    {
      rem=n%10;
-     temp=temp*10+rem; // reverse 
+     temp=temp*10+rem; // reverse of the number
      n=n/10; 
     }
     System.out.println("reverse of number is:"+temp);
