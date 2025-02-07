@@ -15,5 +15,7 @@ public class Reverse
      n=n/10; 
     }
     System.out.println("reverse of number is:"+temp);
+    System.out.println("reverse of number is:"+temp);
   }
 }
+ 
