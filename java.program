@@ -4,4 +4,16 @@ public class Reverse
  public static void main(String[]args)
  {
   Scanner input=new Scanner(System.in);
-
+  System.out.println("enter the number");
+  int n=Input.nextInt();
+  int rem;
+  int temp=0;
+   while(n!=0)
+   {
+     rem=n%10;
+     temp=temp*10+rem; // reverse 
+     n=n/10; 
+    }
+    System.out.println("reverse of number is:"+temp);
+  }
+}
